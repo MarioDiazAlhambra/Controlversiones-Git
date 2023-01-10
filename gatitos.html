@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Carigatos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/main.css" />
+</head>
+
+<body>
+
+    <div class="logo">
+        <a href="index.html"><img src="images/logo-gato.png" alt="Not found"></a>
+
+    </div>
+    <div class="header">
+        <h1>CARIGATOSS</h1>
+        <p>Los gatos tambien son cariñosos</p>
+    </div>
+
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="index.html"><span>Home</span></a></li>
+            <li><a href="sesion.html"><span>Iniciar Sesión</span></a></li>
+            <li><a href="registro.html"><span>Registrarse</span></a></li>
+            <li><a href="perfil.html"><span>Mi perfil</span></a></li>
+            <li><a href="gatitos.html"><span class="active">Gatitos</span></a></li>
+            <li><a href="reservas.html"><span>Mis reservas</span></a></li>
+        </ul>
+    </div>
+
+    <p class="gatitos-sel">Selecciona los gatitos que te gustaría acariciar: </p>
+    <form action="gatitos-form.php">
+        <div class="gatitos-grid">
+            <div class="gatos-row">
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato1.jpg">
+                        <img src="images/gato1.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato1">
+                        <label for="gato1">Schrodinger</label>
+                    </div>
+                    
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato2.jpg">
+                        <img src="images/gato2.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato2">
+                        <label for="gato2">Mairie</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato3.png">
+                        <img src="images/gato3.png" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato3">
+                        <label for="gato3">Abillín</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato4.jpg">
+                        <img src="images/gato4.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato4">
+                        <label for="gato4">Tarta</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato5.png">
+                        <img src="images/gato5.png" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato5">
+                        <label for="gato5">Macchia</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato6.jpg">
+                        <img src="images/gato6.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato6">
+                        <label for="gato6">Nieve</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato7.jpg">
+                        <img src="images/gato7.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato7">
+                        <label for="gato7">Perlu</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato8.jpg">
+                        <img src="images/gato8.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato8">
+                        <label for="gato8">Sidisi</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato9.jpg">
+                        <img src="images/gato9.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato9">
+                        <label for="gato9">Tiger</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato10.jpg">
+                        <img src="images/gato10.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato10">
+                        <label for="gato10">Falafel</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato11.jpg">
+                        <img src="images/gato11.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato11">
+                        <label for="gato11">Kerub</label>
+                    </div>
+                </div>
+                <div class="gatos-column">
+                    <a target="_blank" href="images/gato12.jpg">
+                        <img src="images/gato12.jpg" alt="Not found">
+                    </a>
+                    <div>
+                        <input type="checkbox" id="gato12">
+                        <label for="gato12">Panzer</label>
+                    </div>
+                </div>
+            </div>
+            <div class="gatitos-options">
+                <label for="fecha">¿Que dia?</label>
+                <input type="date" class="fecha">
+                <label for="hora-i">Hora de inicio:</label>
+                <input type="time" class="hora-i">
+                <label for="hora-f">Hora de fin:</label>
+                <input type="time" class="hora-f">
+                <label for="grupo">Cuantos sois:</label>
+                <input type="number" class="grupo" min="1" max="6">
+                <input type="submit" class="reservar" value="Reservar">
+            </div>
+        </div>
+    </form>
+    <footer class="botnav">
+        <div class="contacto">
+            <a href="lugar.html"><span>Dónde estamos</span></a>
+        </div>
+        <div class="contacto">
+            <a href="contacto.html"><span>Contacto</span></a>
+        </div>
+        <div>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/logo-twitter.png" alt="Not found"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/logo-facebook.png" alt="Not found"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/logo instagram.png"
+                    alt="Not found"></a>
+        </div>
+
+    </footer>
+</body>
+</html>

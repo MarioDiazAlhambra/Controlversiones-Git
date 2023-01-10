@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Carigatos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/main.css" />
+</head>
+
+<body>
+
+    <div class="logo">
+        <a href="index.html"><img src="images/logo-gato.png" alt="Not found"></a>
+
+    </div>
+    <div class="header">
+        <h1>CARIGATOSS</h1>
+        <p>Los gatos tambien son cariñosos</p>
+    </div>
+
+    <div class="topnav">
+        <ul class="nav">
+            <li><a href="index.html"><span>Home</span></a></li>
+            <li><a href="sesion.html"><span class="active">Iniciar Sesión</span></a></li>
+            <li><a href="registro.html"><span>Registrarse</span></a></li>
+            <li><a href="perfil.html"><span>Mi perfil</span></a></li>
+            <li><a href="gatitos.html"><span>Gatitos</span></a></li>
+            <li><a href="reservas.html"><span>Mis reservas</span></a></li>
+        </ul>
+    </div>
+    <div class="reg-container sesion">
+        <div class="col-reg">
+            <form action="sesion.php" class="registro">
+                <div>
+                    <label for="email">Correo electronico</label>
+                    <input required type="text" id="email" maxlength="30"
+                        pattern="[a-zA-Z\._\-]{1,30}@(gmail\.com|hotmail\.com|educa\.madrid\.es)">
+                    <label for="password">Contraseña</label>
+                    <input required type="password" id="password" maxlength="15" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{8,15}$">
+                    <input id="submit" type="submit" value= "Iniciar Sesion">
+                </div>
+                
+            </form>
+        </div>
+        <div class=" col-reg reg-img">
+            <img src="images/gatoSesion.jpeg" alt="Not found">
+        </div>
+    </div>
+    <footer class="botnav">
+        <div class="contacto">
+            <a href="lugar.html"><span>Dónde estamos</span></a>
+        </div>
+        <div class="contacto">
+            <a href="contacto.html"><span>Contacto</span></a>
+        </div>
+        <div>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/logo-twitter.png" alt="Not found"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/logo-facebook.png" alt="Not found"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/logo instagram.png"
+                    alt="Not found"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
